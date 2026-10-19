@@ -1,0 +1,152 @@
+{
+    "dataset_shape": [
+        1000,
+        12
+    ],
+    "columns": [
+        "gender",
+        "race/ethnicity",
+        "parental level of education",
+        "lunch",
+        "test preparation course",
+        "math score",
+        "reading score",
+        "writing score",
+        "total_score",
+        "average_score",
+        "passed_all",
+        "performance_tier"
+    ],
+    "score_summary": {
+        "math score": {
+            "mean": 66.089,
+            "std": 15.16308009600945,
+            "median": 66.0,
+            "min": 0.0,
+            "max": 100.0,
+            "q25": 57.0,
+            "q75": 77.0
+        },
+        "reading score": {
+            "mean": 69.169,
+            "std": 14.600191937252216,
+            "median": 70.0,
+            "min": 17.0,
+            "max": 100.0,
+            "q25": 59.0,
+            "q75": 79.0
+        },
+        "writing score": {
+            "mean": 68.054,
+            "std": 15.19565701086965,
+            "median": 69.0,
+            "min": 10.0,
+            "max": 100.0,
+            "q25": 57.75,
+            "q75": 79.0
+        },
+        "average_score": {
+            "mean": 67.77066666666666,
+            "std": 14.257325984669144,
+            "median": 68.33333333333333,
+            "min": 9.0,
+            "max": 100.0,
+            "q25": 58.333333333333336,
+            "q75": 77.66666666666667
+        }
+    },
+    "pass_rate_all_subjects": 81.2,
+    "tier_distribution": {
+        "Moderate Performer": 517,
+        "At-Risk / Needs Support": 285,
+        "High Performer": 198
+    },
+    "gender_breakdown": {
+        "math score": {
+            "female": 63.633204633204635,
+            "male": 68.72821576763485
+        },
+        "reading score": {
+            "female": 72.60810810810811,
+            "male": 65.47302904564316
+        },
+        "writing score": {
+            "female": 72.46718146718146,
+            "male": 63.31120331950208
+        },
+        "average_score": {
+            "female": 69.56949806949807,
+            "male": 65.8374827109267
+        }
+    },
+    "lunch_breakdown": {
+        "math score": {
+            "free/reduced": 58.92112676056338,
+            "standard": 70.03410852713178
+        },
+        "reading score": {
+            "free/reduced": 64.65352112676057,
+            "standard": 71.65426356589147
+        },
+        "writing score": {
+            "free/reduced": 63.02253521126761,
+            "standard": 70.8232558139535
+        },
+        "average_score": {
+            "free/reduced": 62.19906103286385,
+            "standard": 70.83720930232558
+        }
+    },
+    "prep_course_breakdown": {
+        "math score": {
+            "completed": 69.69553072625699,
+            "none": 64.0778816199377
+        },
+        "reading score": {
+            "completed": 73.89385474860335,
+            "none": 66.53426791277259
+        },
+        "writing score": {
+            "completed": 74.41899441340782,
+            "none": 64.50467289719626
+        },
+        "average_score": {
+            "completed": 72.66945996275605,
+            "none": 65.03894080996885
+        }
+    },
+    "education_breakdown": {
+        "math score": {
+            "associate's degree": 67.88288288288288,
+            "bachelor's degree": 69.38983050847457,
+            "high school": 62.13775510204081,
+            "master's degree": 69.7457627118644,
+            "some college": 67.1283185840708,
+            "some high school": 63.497206703910614
+        },
+        "reading score": {
+            "associate's degree": 70.92792792792793,
+            "bachelor's degree": 73.0,
+            "high school": 64.70408163265306,
+            "master's degree": 75.37288135593221,
+            "some college": 69.46017699115045,
+            "some high school": 66.93854748603351
+        },
+        "writing score": {
+            "associate's degree": 69.8963963963964,
+            "bachelor's degree": 73.38135593220339,
+            "high school": 62.44897959183673,
+            "master's degree": 75.67796610169492,
+            "some college": 68.84070796460178,
+            "some high school": 64.88826815642459
+        },
+        "average_score": {
+            "associate's degree": 69.56906906906907,
+            "bachelor's degree": 71.92372881355932,
+            "high school": 63.0969387755102,
+            "master's degree": 73.59887005649718,
+            "some college": 68.476401179941,
+            "some high school": 65.10800744878958
+        }
+    }
+}
